@@ -7,3 +7,10 @@ def imprimi_nomes():
     print("4 -", nomes[3])
 
 imprimi_nomes()
+
+def imprimi_ultimo_nome():
+    nomes = ['Joao', 'Maria', 'Fulano', 'Siclano']
+
+    print("Ultimo nome:", nomes[3])
+
+imprimi_ultimo_nome()
