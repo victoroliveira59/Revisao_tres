@@ -1,19 +1,16 @@
-def imprimi_nomes():
-    nomes = ['Joao', 'Maria', 'Fulano', 'Siclano']
-
-    print("1 -", nomes[0])
-    print("2 -", nomes[1])
-    print("3 -", nomes[2])
-    print("4 -", nomes[3])
-
-imprimi_nomes()
-
-def imprimi_ultimo_nome():
-    nomes = ['Joao', 'Maria', 'Fulano', 'Siclano']
-
-    print("Ultimo nome:", nomes[3])
-
-imprimi_ultimo_nome()
+# def imprimi_nomes():
+#     nomes = ['Joao', 'Maria', 'Fulano', 'Siclano']
+#
+#     print(f'1 - {nomes[0]}\n2 - {nomes[1]}\n3 - {nomes[2]}\n4 - {nomes[3]}')
+#
+# imprimi_nomes()
+#
+# def imprimi_ultimo_nome():
+#     nomes = ['Joao', 'Maria', 'Fulano', 'Siclano']
+#
+#     print("Ultimo nome:", nomes[3])
+#
+# imprimi_ultimo_nome()
 
 def troca_nome_lista():
 
@@ -31,8 +28,6 @@ def troca_nome_lista():
     lista_mercado[2] = novo_item3
 
     print("Nova lista do mercado:")
-    print("1 -", lista_mercado[0])
-    print("2 -", lista_mercado[1])
-    print("3 -", lista_mercado[2])
+    print(f'1 - {lista_mercado[0]}\n2 - {lista_mercado[1]}\n3 - {lista_mercado[2]}')
 
 troca_nome_lista()
