@@ -11,23 +11,13 @@
 #         print(i)
 # conte_usuario()
 
-# def tabuada_2():
-#
-#     i = 1
-#     print(f"Tabuada de: 2")
-#     while i <= 10:
-#         soma = 2 + i
-#         print(f"{2} + {i} = {soma}")
-#         i += 1
-# tabuada_2()
+def tabuada_2():
 
-def tabuada_usuario():
     i = 1
-    digito = int(input("Digite um número inteiro para imprimir a tabuada: "))
-    print("A tabuada do número é:")
+    print(f"Tabuada de: 2")
     while i <= 10:
-        soma = digito * i
-        print(f"{digito} * {i} = {soma}")
+        soma = 2 + i
+        print(f"{2} + {i} = {soma}")
         i += 1
+tabuada_2()
 
-tabuada_usuario()
